@@ -1,0 +1,24 @@
+# AUL Configuration File
+enabled = true
+respectGitignoreFile = true
+sizeOfABigFile = 100
+autoValidateOnStartup = true
+currentHashAlgorithm = "sha-256"
+hash_exceptions = [ "aul/*", "core.aul",]
+autoBackupBeforeUpdate = true
+howToHandleLogs = "clear"
+howToHandleMissingHashTreeFiles = "disabled"
+autoUpdateChannel = "stable"
+prioritizeOnlineConfig = false
+
+[Updates.Stable]
+repo = "https://github.com/KRWCLASSIC/autoupdatelib"
+rawRepoCoreAul = "https://raw.githubusercontent.com/KRWCLASSIC/autoupdatelib/main/core.aul"
+
+[Updates.Nightly]
+repo = "https://github.com/KRWCLASSIC/autoupdatelib/tree/nightly"
+rawRepoCoreAul = "https://raw.githubusercontent.com/KRWCLASSIC/autoupdatelib/nightly/core.aul"
+
+[Updates.Custom]
+repo = ""
+rawRepoCoreAul = ""

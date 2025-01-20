@@ -1,0 +1,9 @@
+# Core configuration for AUL
+# Contains paths to important AUL files and directories
+
+config_path = "aul/config.toml"
+hash_tree_path = "aul/hash_tree.aul"
+log_path = "aul/aul_log.log"
+report_path = "aul/aul_report.log"
+backup_dir = "aul/backups"
+disable_dir = "aul/disable"
