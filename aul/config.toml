@@ -7,7 +7,7 @@ currentHashAlgorithm = "sha-256"
 hash_exceptions = ["aul/disable", "aul/backup", "aul/hash_tree.aul", "core.aul", ".git"]
 autoBackupBeforeUpdate = true
 howToHandleLogs = "clear"
-howToHandleMissingHashTreeFiles = "disabled"
+howToHandleMissingHashTreeFiles = "disable"
 autoUpdateChannel = "stable"
 prioritizeOnlineConfig = false
 
