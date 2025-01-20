@@ -20,5 +20,5 @@ repo = "https://github.com/KRWCLASSIC/autoupdatelib/tree/nightly"
 rawRepoCoreAul = "https://raw.githubusercontent.com/KRWCLASSIC/autoupdatelib/nightly/core.aul"
 
 [Updates.Custom]
-repo = ""
+repo = "test value for updating config"
 rawRepoCoreAul = ""
